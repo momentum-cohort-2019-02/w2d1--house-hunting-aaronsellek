@@ -11,7 +11,7 @@ else:
 if percentage_down == "":
     percentage_down = .25
 else:
-    percentage_down = (percentage_down)
+    percentage_down = float(percentage_down)
 
 portion_down_payment = total_cost * percentage_down
 current_savings = 0
